@@ -13,19 +13,28 @@ So next time I try this it is going to be a little easier to get past the basics
 
 
 # BOM (2019)
-	. Arduno UNO
-	. ATTniy85
-	. ESP07
-	. Capacitor 10uF
-	. 1k rezistor
-	. 2.2K rezistor
-	. Pogo Pins
-	. 8 pin socket
+**Shared between the two adapters**
+* Arduno UNO
+  
+**ESP adapter**  
+* 1k rezistor
+* 2.2K rezistor (needed for the ESP adapter)
+* Pogo Pins (nee
+* 8 pin socket  
+
+**ATTiny adapter**  
+* Capacitor 10uF (needed for the ATTiny85 adapter)  
+
+**Microcontrollers to test the adapters with**  
+* ATTniy85 (so you can test the adapter works)
+* ESP07 (so you can test the adapter works)
 
 # Electrical circuit
 Both circuits are very simple. I ended up just using wires, no PCB.
-![ATTiny85 Flash Electrical Diagram]()
-![ESP07/12 Flash Electrical Diagram]()
+## ATTiny85 circuit
+![ATTiny85 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/ATTiny85Circuit.png?raw=true)
+## ESP07/12 circuit
+![ESP07/12 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/ESPCircuit.png?raw=true)
 
 # Code
 Great news! There is no *new* code needed for this project: one of the adapters runs without any code the other one needs an example sketch falshed to Arduino UNO (which comes with the IDE).
