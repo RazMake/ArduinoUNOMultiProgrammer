@@ -31,9 +31,11 @@ So next time I try this it is going to be a little easier to get past the basics
 
 # Electrical circuit
 Both circuits are very simple. I ended up just using wires, no PCB.
-## ATTiny85 circuit
+
+## ATTiny85 circuit  
 ![ATTiny85 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/ATTiny85Circuit.png?raw=true)
-## ESP07/12 circuit
+
+## ESP07/12 circuit  
 ![ESP07/12 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/ESPCircuit.png?raw=true)
 
 # Code
