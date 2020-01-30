@@ -16,12 +16,12 @@ Also make sure you select **_Arduino as ISP_** for the Programmer:
 * I found that **ATTinyCore** ([GitHub](https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md)) works well for me so I am using this one.  
 _(according to [this](https://forum.arduino.cc/index.php?topic=609034.0) discussion on Arduino forum, this is he most advanced core, at least around Apr-2019)_
 ```
-	http://drazzy.com/package_drazzy.com_index.json
+http://drazzy.com/package_drazzy.com_index.json
 ```
 	
 * Another option, if you are curious to try it, is **David's** ([GitHub](https://github.com/damellis/attiny/)):
 ``` 
-	https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
 ```
 
 
