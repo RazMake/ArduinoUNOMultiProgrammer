@@ -12,8 +12,11 @@ Add the two URLs for the board definitions sources (see bellow), one for ATTiny8
 ...and install ESP8266:  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/InstallEsp8266Core.png?raw=true)  
 * **Step 3:** From the menu select the board and configure its properties.  
-Also make sure you select **_Arduino as ISP_** for the Programmer:  
+For **ATTiny85** make sure you select **_Arduino as ISP_** for the Programmer:  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SelectATTinyBoard.png?raw=true)
+For **ESP8266** it does not matter what is selected for the Programmer:  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SelectEspBoard.png?raw=true)
+
 
 ## ATTiny85
 * I found that **ATTinyCore** ([GitHub](https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md)) works well for me so I am using this one.  
