@@ -40,7 +40,8 @@ Both circuits are very simple. I ended up just using wires, no PCB.
 ![ESP07/12 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/ESPCircuit.png?raw=true)
 
 # Code
-Great news! There is no *new* code needed for this project: one of the adapters runs without any code the other one needs an example sketch falshed to Arduino UNO (which comes with the IDE).
+* [This](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/EnvironmentSetup.md) is how to configure Arduino IDE for flashing ***ATTiny85**s* and ***ESP07/12**s*.
+* Great news! There is no *new* code needed for this project: one of the adapters runs without any code the other one needs an example sketch falshed to Arduino UNO (which comes with the IDE).
 
 # Endresult
 I have now two adapters that fit on the same Arduino UNO headers, that I can use to flash an ESP07/ESP12/ATTiny85. Luckly for flashing ESPs Arduino needs to be disabled,
