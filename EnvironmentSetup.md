@@ -5,9 +5,12 @@ First you need the Arduino IDE program. Just get the latest version from [Arduin
 Then configure the IDE for programming the two boards.
 Add the two URLs for the board definitions sources (see bellow), one for ATTiny85 and one for ESP8266 (ESP-07). For both you can follow the same steps:
 * **Step 1:** Go to settings (by pressing control key and comma: Ctrl+**,**). Then add one of the URLs bellow to the "**Additional Board Manager URLs**":  
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/AddATTinyBoardSource.png?raw=true)
-* **Step 2:** Go to the boards manager (Menu -> Board -> **Boards Manager**) and install ATTiny85:
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/InstallATTniyCore.png?raw=true)
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/BoardSourceSetup.png?raw=true)
+* **Step 2:** Go to the boards manager (Menu -> Board -> **Boards Manager**)  
+...and install ATTiny85:  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/InstallATTniyCore.png?raw=true)  
+...and install ESP8266:  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/InstallEsp8266Core.png?raw=true)  
 * **Step 3:** From the menu select the board and configure its properties.  
 Also make sure you select **_Arduino as ISP_** for the Programmer:  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SelectATTinyBoard.png?raw=true)
@@ -26,3 +29,7 @@ https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/packa
 
 
 ## ESP 07
+* There is a **community maintained core for ESP boards** ([GitHub](https://github.com/esp8266/Arduino)).
+```
+https://github.com/esp8266/Arduino/blob/master/doc/installing.rst
+````
