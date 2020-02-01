@@ -1,6 +1,6 @@
 # Backstory
 I had an ideea for a larger project that would use multiple ATTiny85 microcontrollers and an ESP8266 (to provide internet connectivity).
-It was sitting in my notebook for a while unil I realized I kept putting off working this project because it did not feel like fun to start digging up again
+It was sitting in my notebook for a while unil I realized I kept putting it off because it did not feel like fun to start digging up again
 how to program each of these devices, set up my computer with the necessary software, go through the pain of trail and error until succesfully programming each device.
 I remember that the cheap FTDI adapters are finiky to get to work in windows (the drivers do not always want to work with clone chips and you have to go find an older
 version on some more-or-less shady site).
