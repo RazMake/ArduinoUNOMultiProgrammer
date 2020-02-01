@@ -1,18 +1,19 @@
 # Backstory
-I am working on a larger project that uses multiple ATTiny85 microcontrollers and ESP8266 to provide internet connectivity. At some point I realized I kept putting off this project because
-I did not want to start digging up again how to program each of these devices, set up my computer with the necessary software, go through the pain of trail and error until succesfully programming each device.
-I remember that the cheap FTDI adapters are finiky to get to work in windows (the drivers do not always want to work with clone chips and you have to go find an older version on some more or less shady site).
+I had an ideea for a larger project that would use multiple ATTiny85 microcontrollers and an ESP8266 (to provide internet connectivity).
+It was sitting in my notebook for a while unil I realized I kept putting off working this project because it did not feel like fun to start digging up again
+how to program each of these devices, set up my computer with the necessary software, go through the pain of trail and error until succesfully programming each device.
+I remember that the cheap FTDI adapters are finiky to get to work in windows (the drivers do not always want to work with clone chips and you have to go find an older
+version on some more-or-less shady site).
 
 # Solution
-So I had a couple of Arduino UNOs (also clones) lying in my drawer and collecting dust, and I thought it would be great if I can somehow use the Arduino to flash each of these devices.
+So I had a couple of Arduino UNOs lying in my drawer and collecting dust, and I thought it would be great if I can somehow use one of them to flash each of these devices.
 After some reasearch on the internet, it turns out it is possible to program both of these chips (and likely others too).
 So I decided to save my self some grief in the future and:
-	- make it a repeatable process (flashing each chip)
-	- document the computer setup, as well as some of the gotchas
+	- make flashing each chip a repeatable process
+	- document the computer setup, as well as some of the gotchas I encounter
 So next time I try this it is going to be a little easier to get past the basics (falshing the microcontrollers) and I can focus on designing the circuit and writting the firmware for my projects.
 
-
-# BOM (2019)
+# BOM (2019)
 **Shared between the two adapters**
 * Arduno UNO [**$2.79**/1pcs](https://www.banggood.com/Geekcreit-UNO-R3-ATmega328P-Development-Board-For-No-Cable-p-964163.html?rmmds=search&cur_warehouse=CN)
   
