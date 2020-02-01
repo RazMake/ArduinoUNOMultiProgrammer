@@ -8,10 +8,10 @@ version on some more-or-less shady site).
 # Solution
 So I had a couple of Arduino UNOs lying in my drawer and collecting dust, and I thought it would be great if I can somehow use one of them to flash each of these devices.
 After some reasearch on the internet, it turns out it is possible to program both of these chips (and likely others too).
-So I decided to save my self some grief in the future and:
-	- make flashing each chip a repeatable process
-	- document the computer setup, as well as some of the gotchas I encounter
-So next time I try this it is going to be a little easier to get past the basics (falshing the microcontrollers) and I can focus on designing the circuit and writting the firmware for my projects.
+So I decided to save my self some grief in the future and:  
+    - make flashing each chip a repeatable process  
+    - document the computer setup, as well as some of the gotchas I encounter  
+The goal being that next time I try this it is going to be a little easier to get past the basics (falshing the microcontrollers) and I can focus on designing the circuit and writting the firmware for my projects.  
 
 # BOM (2019)
 **Shared between the two adapters**
