@@ -49,8 +49,12 @@ I have now two adapters that fit on the same Arduino UNO headers, that I can use
 so by connecting the RESET pin to the ground, I don't need to reflash the Arduino with a different sketch. Basically I just swap the adapter, change the settings in the IDE and I flash the new bits.
 
 ## ATTiny85 adapter
+This is how the adapter for ATTiny85 looks like, mounted on the Arduino UNO:  
+![ATTiny85 adapter](https://github.com/RazMake/ArduinoUNOMultiProgrammer/Photos/blob/master/Attiny85Adapter.jpg?raw=true)  
 
 ## ESP07/ESP12 adapter
+This is how the adapter for ESP07 looks like, mounted on the Arduino UNO:  
+![ESP 07 adapter](https://github.com/RazMake/ArduinoUNOMultiProgrammer/Photos/blob/master/Esp07Adapter.jpg?raw=true)  
 
 ## _Disclaimer_
 _There might be better implementations for this but with what I had at my disposal the resulting two adapters are not that bad.
