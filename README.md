@@ -1,17 +1,52 @@
 # Backstory
-I had an ideea for a larger project that would use multiple ATTiny85 microcontrollers and an ESP8266 (to provide internet connectivity).
+I had an ideea for a larger project that would use multiple ATTiny85 microcontrollers and an ESP8266 (to control all of the ATTinys while communicating over WiFi with my
+home automation system).
 It was sitting in my notebook for a while unil I realized I kept putting it off because it did not feel like fun to start digging up again
 how to program each of these devices, set up my computer with the necessary software, go through the pain of trail and error until succesfully programming each device.
 I remember that the cheap FTDI adapters are finiky to get to work in windows (the drivers do not always want to work with clone chips and you have to go find an older
 version on some more-or-less shady site).
 
 # Solution
-So I had a couple of Arduino UNOs lying in my drawer and collecting dust, and I thought it would be great if I can somehow use one of them to flash each of these devices.
-After some reasearch on the internet, it turns out it is possible to program both of these chips (and likely others too).
-So I decided to save my self some grief in the future and:  
-    - make flashing each chip a repeatable process  
-    - document the computer setup, as well as some of the gotchas I encounter  
-The goal being that next time I try this it is going to be a little easier to get past the basics (falshing the microcontrollers) and I can focus on designing the circuit and writting the firmware for my projects.  
+I decided to start collecting the information in a document or something. Then I realized this means it is easily sharable so I decided to put everything on github.  
+This way I have a repository that is versioned and also the information is
+*"out there"* hopefully saving somebody else some time.
+The ideea is to use an Arduino UNO to facilitate communication between PC and the two chips mentioned above. I think this can work with a lot of other microcontrollers,
+but so far I only have done and tested the two.  
+I had an Arduino UNO R3 lying around in a drawer, collecting dust so I decided to make it a dedicated programming device.
+I will describe bellow all the necesary steps, but first here is a table of content so one can jump quickly to the interesting part:
+* **Hardware**  
+	* **[Building the ATTiny85 adapter for programming]()**  
+	*Such an adapter allows connecting the ATTiny85 chip to a computer (through an Arduino) so you can flash new software on it (aka. a new sketch)*  
+	* **[Building the ESP-07/12 adapter for breadboard]()**  
+	*This adapter allows connecting an ESP-07 to a breadboard (without modifying the chip).  
+	The goal being that you make the temporary/test circuits using jumper wires without altering the microcontroller (like soldering wires to it, etc.).  
+	Only when you are sure your circuit is good you create the PCB and solder the chip making a more permanent and robust circuit for the final project*  
+	* **[Building the ESP-07/12 adapter for programming]()**  
+	*This adapter has the correspoding female headers so you can connect the above breadboard adapter to it.  
+	This alows you to move the ESP microcontroller between the breadboard and the programming adapter without taking it out (which reduces the wear on the pads)*
+* **Software**
+  *This is only about Arduino IDE, I don't know how to use the other programming environments (like [PlatformIO](https://platformio.org/)).*  
+	* **[Setup your computer for programming microcontrollers, using Arduino IDE.]()**    
+	*How to install Arduino IDE, add libraries and add the boards you're going to program with it*
+	* **[Setup for programming ATTiny85]()**  
+	*How to setup Arduino IDE for programming ATTiny. You'll need to do these steps when programming different microcontrollers, when returning to program the ATTiny.*  
+	* **[Setup for programming ESP-07 (or ESP-12)]()**  
+	*How to setup Arduino IDE for programming ESP microcontrollers. You'll need to do these steps when programming different microcontrollers, when returning to program a ESP.  
+	**Note**: When flashing your first sketch you will loose the AT firmware from ESP. Not a big loss, but I thought I'd mention it. It possible to get it back, but I never tried that.*  
+
+# Actual Devices
+## Programming *'device'*
+*This is just an Arduino UNO R3, encased in a 3D printed skin.  
+ The intent is to prevent causing an accidentals short circuit when carelesly placing it over some wire on the table.*
+
+## ATTiny85 programming adapter
+*The programming adapter connects to the Arduino, which in turn connects to the computer over USB.*
+
+## ESP-07/12 breadboard adapter
+*The breadboard adapter has pins with the right spacing so you can plug it in.*
+
+## ESP-07/12 programming adapter
+*The programming adapter is design to connect to the breadboard adapter, to avoid having to move the ESP chip from one adapter to another.*
 
 # BOM (2019)
 **Shared between the two adapters**
@@ -57,6 +92,14 @@ This is how the adapter for ESP07 looks like, mounted on the Arduino UNO:
 ![ESP 07 adapter](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/Esp07Adapter.jpg?raw=true)  
 
 ## _Disclaimer_
-_There might be better implementations for this but with what I had at my disposal the resulting two adapters are not that bad.
-The circuits I have used are minimalistic, and roughly built (no PCBs), but the adapters are relatively small and relatively convenient to use
-(relatively = if you are not goint to make tens of version of the same project, in which case you're probably better off buying one of those spring clamp adapters which grab the chip)._
+_**I'm no electrical engineer** which means take my notes with a grain of salt.  
+There might be better implementations for any these but with what I had at my disposal (including the knowledge and the time to learn) the resulting two adapters are at least working.
+The circuits I have used are minimalistic, and roughly built (no PCBs), but the adapters are easy to use and relatively handy (if you're building one off circuits for hobby projects or
+at least not large batches they might be good enough)._
+
+## Bonus
+While working on my projects I realized that I also need an adapter for the breadboard for ESP-07, as it does not have pins and it was annoying to have to solder some wires to it just so I can try out stuff.
+Since I did all those adapters using plastic, and also I had the model for the socket for ESP-07 already designed.. I thought, "Hey since I have a hammer, this problem looks like a nail" so I went ahead and printed
+a quickly put together adapter. Now, after completing it, I think it turned out to be a bit more involved than I was imagining (the pins are really close together and 16 of them), but since I shared all the other models,
+I'll share this one too (it's in the 3D Models folder). Here is a picture.. looks exotic :-)
+![ESP Breadboard adapter](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadboardAdapter.jpg?raw=true)
