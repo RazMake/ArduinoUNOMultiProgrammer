@@ -35,7 +35,7 @@ I will describe bellow all the necesary steps, but first here is a table of cont
 	**Note**: When flashing your first sketch you will loose the AT firmware from ESP. Not a big loss, but I thought I'd mention it. It possible to get it back, but I never tried that.*  
 
 ## Actual Devices
-## Programming *'device'*
+### Programming *'device'*
 *This is just an Arduino UNO R3, encased in a 3D printed skin.  
  The intent is to prevent causing an accidentals short circuit when carelesly placing it over some wire on the table.*
 
