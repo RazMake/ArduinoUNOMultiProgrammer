@@ -15,22 +15,22 @@ but so far I only have done and tested the two.
 I had an Arduino UNO R3 lying around in a drawer, collecting dust so I decided to make it a dedicated programming device.
 I will describe bellow all the necesary steps, but first here is a table of content so one can jump quickly to the interesting part:
 * **Hardware**  
-	* **[Building the ATTiny85 adapter for programming]()**  
+	* **[Building the ATTiny85 adapter for programming](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Hardware/ATTin85ProgrammingAdapter.md)**  
 	*Such an adapter allows connecting the ATTiny85 chip to a computer (through an Arduino) so you can flash new software on it (aka. a new sketch)*  
-	* **[Building the ESP-07/12 adapter for breadboard]()**  
+	* **[Building the ESP-07/12 adapter for breadboard](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Hardware/ESP07BreadboardAdapter.md)**  
 	*This adapter allows connecting an ESP-07 to a breadboard (without modifying the chip).  
 	The goal being that you make the temporary/test circuits using jumper wires without altering the microcontroller (like soldering wires to it, etc.).  
 	Only when you are sure your circuit is good you create the PCB and solder the chip making a more permanent and robust circuit for the final project*  
-	* **[Building the ESP-07/12 adapter for programming]()**  
+	* **[Building the ESP-07/12 adapter for programming](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Hardware/ESP07ProgrammingAdapter.md)**  
 	*This adapter has the correspoding female headers so you can connect the above breadboard adapter to it.  
 	This alows you to move the ESP microcontroller between the breadboard and the programming adapter without taking it out (which reduces the wear on the pads)*
 * **Software**
   *This is only about Arduino IDE, I don't know how to use the other programming environments (like [PlatformIO](https://platformio.org/)).*  
-	* **[Setup your computer for programming microcontrollers, using Arduino IDE.]()**    
+	* **[Setup your computer for programming microcontrollers, using Arduino IDE.](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Software/SetupArduinoIDE.md)**    
 	*How to install Arduino IDE, add libraries and add the boards you're going to program with it*
-	* **[Setup for programming ATTiny85]()**  
+	* **[Setup for programming ATTiny85](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Software/SetupForATTiny.md)**  
 	*How to setup Arduino IDE for programming ATTiny. You'll need to do these steps when programming different microcontrollers, when returning to program the ATTiny.*  
-	* **[Setup for programming ESP-07 (or ESP-12)]()**  
+	* **[Setup for programming ESP-07 (or ESP-12)](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Software/SetupForESP.md)**  
 	*How to setup Arduino IDE for programming ESP microcontrollers. You'll need to do these steps when programming different microcontrollers, when returning to program a ESP.  
 	**Note**: When flashing your first sketch you will loose the AT firmware from ESP. Not a big loss, but I thought I'd mention it. It possible to get it back, but I never tried that.*  
 
