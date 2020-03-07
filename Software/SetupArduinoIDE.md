@@ -23,7 +23,7 @@ Add, then, the URLs for the cores you want to program with the Arduino IDE.
 ![](https://raw.githubusercontent.com/RazMake/ArduinoUNOMultiProgrammer/master/Screenshots/BoardSourceSetup.png)  
 
 Once the sources are set, you need to go to the Boards Manager (Tools -> Board -> Boards Manager...):  
-![](https://raw.githubusercontent.com/RazMake/ArduinoUNOMultiProgrammer/master/OpenBoardsManager.png)  
+![](https://raw.githubusercontent.com/RazMake/ArduinoUNOMultiProgrammer/master/Screenshots/OpenBoardsManager.png)  
 and install the boards one at a time:  
 * ATTin85  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/InstallATTniyCore.png)  
