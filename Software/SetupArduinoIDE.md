@@ -4,7 +4,7 @@ First you need the Arduino IDE program. Just get the latest version from [Arduin
 # Configuration
 First thing to do is to set the path for sketches to a well known folder on your hard drive. This way it is easy to back it up, if needed.
 Press Ctrl+**,** (opens up File->Preferences dialog). Enter the desired path in "*Sketchbook Location*" field.
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SettingSketchbookLocation.png?raw=true)
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SettingSketchbookLocation.png)
 
 ## Install boards
 ### ATTiny85
@@ -22,7 +22,9 @@ Press Ctrl+**,** (opens up File->Preferences dialog). Click on the button near t
 Add, then, the URLs for the cores you want to program with the Arduino IDE.  
 ![](https://raw.githubusercontent.com/RazMake/ArduinoUNOMultiProgrammer/master/Screenshots/BoardSourceSetup.png)  
 
-Once the sources are set go to the boards manager and install the boards one by one:
+Once the sources are set, you need to go to the Boards Manager (Tools -> Board -> Boards Manager...):  
+![](https://raw.githubusercontent.com/RazMake/ArduinoUNOMultiProgrammer/master/OpenBoardsManager.png)  
+and install the boards one at a time:  
 * ATTin85  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/InstallATTniyCore.png)  
 * ESP8266 (all ESP boards)  
