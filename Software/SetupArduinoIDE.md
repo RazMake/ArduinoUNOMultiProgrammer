@@ -6,7 +6,7 @@ First thing to do is to set the path for sketches to a well known folder on your
 Press Ctrl+**,** (opens up File->Preferences dialog). Enter the desired path in "*Sketchbook Location*" field.
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SettingSketchbookLocation.png)
 
-## Install boards
+## Setup board sources
 ### ATTiny85
 * I found that ***ATTinyCore*** works well for me (sources: [GitHub](https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md)).  
 **URL**: *http://drazzy.com/package_drazzy.com_index.json*.  
@@ -22,7 +22,9 @@ Press Ctrl+**,** (opens up File->Preferences dialog). Click on the button near t
 Add, then, the URLs for the cores you want to program with the Arduino IDE.  
 ![](https://raw.githubusercontent.com/RazMake/ArduinoUNOMultiProgrammer/master/Screenshots/BoardSourceSetup.png)  
 
+## Install boards
 Once the sources are set, you need to go to the Boards Manager (Tools -> Board -> Boards Manager...):  
+*Note: Board menu also has the name of the board currently setup, so it might look different than the screenshot bellow.*  
 ![](https://raw.githubusercontent.com/RazMake/ArduinoUNOMultiProgrammer/master/Screenshots/OpenBoardsManager.png)  
 and install the boards one at a time:  
 * ATTin85  
