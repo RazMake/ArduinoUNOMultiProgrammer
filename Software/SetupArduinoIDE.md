@@ -4,7 +4,7 @@ First you need the Arduino IDE program. Just get the latest version from [Arduin
 # Configuration
 First thing to do is to set the path for sketches to a well known folder on your hard drive. This way it is easy to back it up, if needed.
 Press Ctrl+**,** (opens up File->Preferences dialog). Enter the desired path in "*Sketchbook Location*" field.
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/BoardSourceSetup.png?raw=true)
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SettingSketchbookLocation.png?raw=true)
 
 ## Install boards
 ### ATTiny85
