@@ -1,12 +1,17 @@
-# Get Arduino
-First you need the Arduino IDE program. Just get the latest version from [Arduino web site](https://www.arduino.cc/en/Main/Software), if you don't already have it.
+# Get Arduino IDE
+*Arduino IDE* is one of the development environments that can be used to program various microcontrollers (including the two I am planning to use).  
+It is free to download, donnations are accepted.
+Just get the latest version from [Arduino web site](https://www.arduino.cc/en/Main/Software), if you don't already have it.
 
 # Configuration
-First thing to do is to set the path for sketches to a well known folder on your hard drive. This way it is easy to back it up, if needed.
-Press Ctrl+**,** (opens up File->Preferences dialog). Enter the desired path in "*Sketchbook Location*" field.
+First thing to do is to set the path for sketches to a well known folder on your hard drive. This way it is easy to back it up, if needed.  
+Press Ctrl+**,** (opens up File->Preferences dialog). Enter the desired path in "*Sketchbook Location*" field.  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SettingSketchbookLocation.png)
 
 ## Setup board sources
+You need to start by telling Arduino IDE where to find board definitions.  
+Once that is setup, you can find the available boards in a list, in the board manager and install the ones you want to use.  
+
 ### ATTiny85
 * I found that ***ATTinyCore*** works well for me (sources: [GitHub](https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md)).  
 **URL**: *http://drazzy.com/package_drazzy.com_index.json*.  
