@@ -38,3 +38,7 @@ and install the boards one at a time:
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/InstallEsp8266Core.png)  
 
 ## Install libraries
+Not all libraries are the same between multiple microprocessors so I decided to put the library information together with the specific configuration steps.  
+Find the specific steps and the libraries using these links:  
+* **[Setup for programming ATTiny85](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Software/SetupForATTiny.md)**  
+* **[Setup for programming ESP-07 (or ESP-12)](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Software/SetupForESP.md)**  
