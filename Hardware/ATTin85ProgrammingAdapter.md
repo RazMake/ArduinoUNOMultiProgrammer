@@ -5,7 +5,7 @@ This adapter is very simple, it does not really have additional components.
 * 8 pin socket  [**$2.99**/20pcs](https://www.ebay.com/itm/20Pcs-8Pin-Dip-20-Ic-Socket-Double-In-Line-Integrated-Circuit-Solder-Type/163040422083?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D20160908105057%26meid%3D204107da225f4390aaa244fe15edeac8%26pid%3D100675%26rk%3D2%26rkt%3D15%26mehot%3Dag%26sd%3D282315166074%26itm%3D163040422083%26pmt%3D0%26noa%3D1%26pg%3D2380057&_trksid=p2380057.c100675.m4236&_trkparms=pageci%3Af472dd74-4240-11ea-978e-74dbd180e3a4%7Cparentrq%3Aef2d7d2316f0ac3d5c8ad1b3fff6eed4%7Ciid%3A1&autorefresh=true)
 
 # Circuit
-![ATTiny85 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/ATTiny85Circuit.png?raw=true)  
+![ATTiny85 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Hardware/ATTiny85Circuit.png?raw=true)  
 You can find the KiCad Project [here](), containing the electrical diagram and the PCB design.  
 The same project also contains the [Gerber files](), if you want to go ahead and directly order the board for yourself.  
 
