@@ -22,7 +22,8 @@ The [***KiCad project***](https://github.com/RazMake/KiCad/tree/master/Adapters/
 *Note: Once I had the PCBs, in my hand I realized to things (maybe they save you some money/effort):*
 * *I had a few places where I noticed things can be improved, when trying to use the boards.*
 * *I could have been a bit more efficient by putting all the boards on the same panel.  
-   This way I could have ordered 5x of a little bigger pannel rather tha 5x 3 different small pannels.*
+   This way I could have ordered 5x of a little bigger pannel rather tha 5x 3 different small pannels.*  
+
 This [**KiCad project**]() contains **all** boards with fixes to the minor issues above. I just did not order new PCBs yet so they're not really tested.
 
 # Manufacturing
