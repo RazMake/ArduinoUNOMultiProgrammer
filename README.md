@@ -54,6 +54,7 @@ In order to prevent accidentals short circuit when carelesly placing it over som
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadBoardAdapter_Back.jpg?raw=true)  
 
 ### ESP-07/12 programming adapter
-*The programming adapter is design to connect to the breadboard adapter, to avoid having to move the ESP chip from one adapter to another.*  
+*The programming adapter is design to connect to the breadboard and programming adapter.  
+This remove the need to move the ESP chip from one adapter to another, which can wear out the castelated pads.*  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/?ESPFlashingAdapter_Front.jpgraw=true)  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/?ESPFlashingAdapter_Back.jpgraw=true)  
