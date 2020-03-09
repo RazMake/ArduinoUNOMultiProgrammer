@@ -42,13 +42,18 @@ I will describe bellow all the necesary steps, but first here is a table of cont
 In order to prevent accidentals short circuit when carelesly placing it over some wire or pin on the table.*  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno_InCase_Open.jpg?raw=true)  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno_InCase_Closed.jpg?raw=true)  
- 
 
 ### ATTiny85 programming adapter
-*The programming adapter connects to the Arduino, which in turn connects to the computer over USB.*
+*The programming adapter connects to the Arduino, which in turn connects to the computer over USB.*  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ATTinyFlashingAdapter_Front.jpg?raw=true)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ATTinyFlashingAdapter_Back.jpg?raw=true)  
 
 ### ESP-07/12 breadboard adapter
-*The breadboard adapter has pins with the right spacing so you can plug it in.*
+*The breadboard adapter has pins with the right spacing so you can plug it in.*  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadBoardAdapter_Front.jpg?raw=true)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadBoardAdapter_Back.jpg?raw=true)  
 
 ### ESP-07/12 programming adapter
-*The programming adapter is design to connect to the breadboard adapter, to avoid having to move the ESP chip from one adapter to another.*
+*The programming adapter is design to connect to the breadboard adapter, to avoid having to move the ESP chip from one adapter to another.*  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/?ESPFlashingAdapter_Front.jpgraw=true)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/?ESPFlashingAdapter_Back.jpgraw=true)  
