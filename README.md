@@ -36,8 +36,13 @@ I will describe bellow all the necesary steps, but first here is a table of cont
 
 ## Actual Devices
 ### Programming *'device'*
-*This is just an Arduino UNO R3, encased in a 3D printed skin.  
- The intent is to prevent causing an accidentals short circuit when carelesly placing it over some wire on the table.*
+*This is just an Arduino UNO R3...*  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno.jpg?raw=true)  
+*...encased in a 3D printed skin.  
+In order to prevent accidentals short circuit when carelesly placing it over some wire or pin on the table.*  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno_InCase_Open.jpg?raw=true)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno_InCase_Closed.jpg?raw=true)  
+ 
 
 ### ATTiny85 programming adapter
 *The programming adapter connects to the Arduino, which in turn connects to the computer over USB.*
