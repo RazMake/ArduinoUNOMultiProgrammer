@@ -37,21 +37,21 @@ I will describe bellow all the necesary steps, but first here is a table of cont
 ## Actual Devices
 ### Programming *'device'*
 *This is just an Arduino UNO R3...*  
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno.jpg?raw=true)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno.jpg)  
 *...encased in a 3D printed skin.  
 In order to prevent accidentals short circuit when carelesly placing it over some wire or pin on the table.*  
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno_InCase_Open.jpg?raw=true)  
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno_InCase_Closed.jpg?raw=true)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno_InCase_Open.jpg)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ArduinoUno_InCase_Closed.jpg)  
 
 ### ATTiny85 programming adapter
 *The programming adapter connects to the Arduino, which in turn connects to the computer over USB.*  
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ATTinyFlashingAdapter_Front.jpg?raw=true)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ATTinyFlashingAdapter_Front.jpg)  
 
 ### ESP-07/12 breadboard adapter
 *The breadboard adapter has pins with the right spacing so you can plug it in.*  
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadBoardAdapter_Front.jpg?raw=true)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadboardAdapter_WithESP.jpg)  
 
 ### ESP-07/12 programming adapter
 *The programming adapter is design to connect to the breadboard and programming adapter.  
 This remove the need to move the ESP chip from one adapter to another, which can wear out the castelated pads.*  
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/?ESPFlashingAdapter_Front.jpgraw=true)  \
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPFlashingAdapter_Front.jpg)
