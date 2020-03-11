@@ -12,7 +12,7 @@ This adapter is very simple, it does not really have additional components.
 
 # Manufacturing the adapter
 This is the circuit diagram manually drawn because it is a bit easier to follow when you're trying to verify your connections.  
-![ATTiny85 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Hardware/ATTiny85Circuit.png?raw=true)  
+![ATTiny85 Flash Electrical Diagram](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Hardware/ATTiny85Circuit.png)  
 
 ## Designing the PCB
 I have used [**KiCad**](https://kicad-pcb.org/download/windows/) for designing the PCB and using [**DRCNow (free version)**](https://www.numericalinnovations.com/pages/dfm-now-free-gerber-viewer) for validating them.  
