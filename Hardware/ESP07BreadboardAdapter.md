@@ -57,7 +57,7 @@ Basically the ordering is in three steps:
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadboardAdapter_Front.jpg)  
 
 **Back of the board**, after soldering the pogo and header pins  
-![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadboardAdapter_Back.jpg)  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadBoardAdapter_Back.jpg)  
 
 **Board with ESP connected**  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Photos/ESPBreadboardAdapter_WithESP.jpg)  
