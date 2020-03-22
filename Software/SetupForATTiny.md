@@ -29,6 +29,7 @@ Then make sure you select the Programmer: "Arduino as ISP" (*this is only import
 	 To do that you need to go to Tools -> *Burn Bootloader*, before flashing the code.**
 - **B.O.D. Level:** This is the Brown-out-detection setting. When the power source voltage varies (i.e. when the chip is powered by solar power) the chip can freeze.  
   To prevent that, turn on brown-out-detection. The result will be that the chip resets if the power goes to low, rather than freezing.  
+  **Note: Every time you change the B.O.D. option you have to *reset the fuses*.**  
 - **Save EEPROM:** When this option is set to ***Enabled*** the EEPROM (the memory that survives power loss) is cleared when you flash new code on the ATTiny.  
   I keep this ***Disabled*** unless I intend to reset the persistent storage because EEPROMs have a finite number of writes before they start failing  
   and while prototyping I tend to re-flash multiple times as I learn how to do things right and fix bugs.
