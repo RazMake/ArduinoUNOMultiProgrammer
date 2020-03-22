@@ -8,7 +8,7 @@
 
 Once the Arduino is prepared, you only need to switch the IDE to flash ATTiny chips.  
 ![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SelectATTinyBoard.png)  
-First select the board: select "ATTiny25/45/85". 
+First select the board: "ATTiny25/45/85". 
 Then make sure you select the Programmer: "Arduino as ISP" (*this is only important for ATTiny*).  
 
 ## Menu Options
@@ -25,12 +25,16 @@ Then make sure you select the Programmer: "Arduino as ISP" (*this is only import
 	![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/ATTiny85_ExternalCrystal.png)  
 	 Connect the crystal to pin **2** and pin **3**. Connect ***22pF*** caps from pin **2** to **GND**, and pin **3** to **GND**.  
 	- There are a bunch of other options, but I think these three cover most of the interesting cases.  
-	 **Note: Every time you change the clock option you have to *reset the fuses*. To do that you need to go to Tools -> *Burn Bootloader*, before flashing the code.**
-- **B.O.D. Level:** This 
-- **Save EEPROM:** This
-- **Timer 1 Clock:** This
-- **LTO (1.6.11+ only):** This
-- **millis()/micros():** This
+	 **Note: Every time you change the clock option you have to *reset the fuses*.  
+	 To do that you need to go to Tools -> *Burn Bootloader*, before flashing the code.**
+- **B.O.D. Level:** This is the Brown-out-detection setting. When the power source voltage varies (i.e. when the chip is powered by solar power) the chip can freeze.  
+  To prevent that, turn on brown-out-detection. The result will be that the chip resets if the power goes to low, rather than freezing.  
+- **Save EEPROM:** When this option is set to ***Enabled*** the EEPROM (the memory that survives power loss) is cleared when you flash new code on the ATTiny.  
+  I keep this ***Disabled*** unless I intend to reset the persistent storage because EEPROMs have a finite number of writes before they start failing  
+  and while prototyping I tend to re-flash multiple times as I learn how to do things right and fix bugs.
+- **Timer 1 Clock:** *??*. It is set to ***CPU*** by default. I left it like that.
+- **LTO (1.6.11+ only):** *??*. It is set to ***Enabled*** by default. I left it like that.
+- **millis()/micros():** *??*. It is set to ***Enabled*** by default. I left it like that.
 - **Port:** This is the computer port where the Arduino UNO is connected. This depends on your machine.
 
 # Libraries
