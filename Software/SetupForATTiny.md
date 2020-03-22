@@ -35,7 +35,12 @@ Then make sure you select the Programmer: "Arduino as ISP" (*this is only import
   and while prototyping I tend to re-flash multiple times as I learn how to do things right and fix bugs.
 - **Timer 1 Clock:** *??*. It is set to ***CPU*** by default. I left it like that.
 - **LTO (1.6.11+ only):** *??*. It is set to ***Enabled*** by default. I left it like that.
-- **millis()/micros():** *??*. It is set to ***Enabled*** by default. I left it like that.
+- **millis()/micros():** This menu allows enabling or disabling the timers for returning the number of milliseconds or microseconds.  
+  If set to **disabled**, Serial methods with take a timeout as an argument will **not** have accurate timeout (though the actual time will be still proportional to the suplied value).  
+  delay calls will still work. While this option is disabled, eliminates mills interrupt every 1-2 ms and saves a few hundred bytes of flash.  
+  I keep this **enabled** (the default value) to avoid forgetting it is off and chasing around wired timing issues.  
+  **Notes:** The value returned by either of this functions rolls over, make sure you [handle that case](https://www.baldengineer.com/arduino-how-do-you-reset-millis.html) (or [this](https://arduino.stackexchange.com/questions/22212/using-millis-and-micros-inside-an-interrupt-routine)),
+  if you use the methods.
 - **Port:** This is the computer port where the Arduino UNO is connected. This depends on your machine.
 
 # Libraries
