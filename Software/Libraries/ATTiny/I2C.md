@@ -1,6 +1,7 @@
 # Library
-I am using [**TinyWire**](https://github.com/lucullusTheOnly/TinyWire) library.  
-Which is capable of handling both *master* and *slave*, as well as switching to master temporarily while working as slave normally.  
+I am using **TinyWire** library [GitHub](https://github.com/lucullusTheOnly/TinyWire).  
+It seems to be relatively recently updated (*early 2019*) and it has all (*well almost all*) the functionality (it is capable of handling both *master* and *slave* side of things,
+as well as dynamically switching between them).  
 
 **Interesting things to note:**
 - It is very important to use ***pullup resistors for both lines*** (e.g. **2** kOhm)
