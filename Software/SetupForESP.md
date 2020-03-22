@@ -28,4 +28,8 @@ First select the board. Select "Generic ESP8266 Module".
 - **SSL Support:** *??*. It is set to ***All SSL ciphers (most compatible)*** by default. I left it like that.
 - **Port:** This is the computer port where the Arduino UNO is connected. This depends on your machine.
 
+# ESP-07/12 Pinout
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/ESP07Pinout.png)
+
+
 # Libraries
