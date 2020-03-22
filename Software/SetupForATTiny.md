@@ -44,7 +44,7 @@ Then make sure you select the Programmer: "Arduino as ISP" (*this is only import
 - **Port:** This is the computer port where the Arduino UNO is connected. This depends on your machine.
 
 # Libraries
-- [**I2C**](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Software/ATTiny/I2C.md).
+- [**I2C**](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Software/Libraries/ATTiny/I2C.md).
   This protocol is used for comunicating with other I2C capable devices using only 2 wires (*SCL*-clock, *SDA*-data).
 
 
