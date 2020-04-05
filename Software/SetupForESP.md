@@ -33,4 +33,4 @@ First select the board. Select "Generic ESP8266 Module".
 
 # Libraries
 One interesting thing to note before delving into differenc details for various libraries, is a simple way of debugging your code.  
-Take a look at my "Poor Man's Debugger" notes.  
+Take a look at my "[***Poor Man's Debugger***](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Software/PoorMan'sDebugger.md)" notes.  

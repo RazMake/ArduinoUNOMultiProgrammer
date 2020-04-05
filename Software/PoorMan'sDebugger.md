@@ -57,12 +57,12 @@ For that you can simply use the [**ArduinoUNOMultiProgrammer**](https://github.c
 You can use jumper wires, since the adapter has female headers. Make sure you connect the same pins together (**RX-RX, TX-TX, GND-GND**).  
 **Note:** ***It is important to have the ground connected, otherwise the communication won't work and you won't see the prints from the device.***  
 Once you have the connections made, start the Serial Monitor from Arduino IDE:  
-![]()  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/StartSerialMonitor.png)  
 Then make sure the monitor settings are like this:  
 -**LineEnding**: No line ending  
 -**Baud Rate**: 115200 baud
 -**Autoscroll**: checked  
-![]()  
+![](https://github.com/RazMake/ArduinoUNOMultiProgrammer/blob/master/Screenshots/SerialMonitor.png)  
 That's it, you should see the Serial.print() and Serial.println() values in the monitor on your computer.  
 Prety nifty, since you don't need anything more than the tools you should already have for programming the device.
 
